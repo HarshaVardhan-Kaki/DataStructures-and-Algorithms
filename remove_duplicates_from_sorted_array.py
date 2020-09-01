@@ -13,7 +13,7 @@ class Solution:
                 continue
             else:
                 nums[last_unique_idx+1] = nums[i]
-                last_unique_idx +=1
+                last_unique_idx += 1
                 unique_elements += 1
         return unique_elements
 
